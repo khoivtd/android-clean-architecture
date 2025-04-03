@@ -36,8 +36,7 @@ kotlin {
 dependencies {
     // UnitTest
     api(libs.mockito.kotlin)
-    api(libs.mockito.inline)
-    api(libs.mockito.android)
+    api(libs.mockito.core)
     api(libs.core.testing)
     api(libs.junit.junit)
     api(libs.turbine)

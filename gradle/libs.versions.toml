@@ -2,11 +2,12 @@
 accompanistSystemuicontroller = "0.27.0"
 appcompat = "1.7.0"
 coilCompose = "2.7.0"
-composeBom = "2025.03.00"
+composeBom = "2025.03.01"
 coreKtx = "1.15.0"
 coreTesting = "2.2.0"
 androidAppGradlePlugin = "8.8.2"
 androidLibraryGradlePlugin = "8.8.2"
+detektFormatting = "1.22.0"
 gson = "2.10.1"
 hiltDagger = "2.51.1"
 hilt = "1.2.0"
@@ -20,8 +21,7 @@ kotlinxSerializationJson = "1.6.3"
 lifecycleExtensions = "2.2.0"
 lifecycleViewmodelCompose = "2.8.7"
 lifecycleViewmodelKtx = "2.8.7"
-mockitoAndroid = "5.0.0"
-mockitoInline = "5.2.0"
+mockitoCore = "5.12.0"
 mockitoKotlin = "5.4.0"
 navigationCompose = "2.8.9"
 okhttp = "5.0.0-alpha.2"
@@ -50,6 +50,7 @@ compose-animation = { module = "androidx.compose.animation:animation" }
 appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detektFormatting" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 kotlin-stdlib-jdk7 = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk7", version.ref = "kotlinStdlibJdk7" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
@@ -101,8 +102,7 @@ navigation-compose = { module = "androidx.navigation:navigation-compose", versio
 junit-junit = { module = "junit:junit", version.ref = "junit" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
 mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockitoKotlin" }
-mockito-android = { module = "org.mockito:mockito-android", version.ref = "mockitoAndroid" }
-mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockitoInline" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
 core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
 turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 truth = { module = "com.google.truth:truth", version.ref = "truth" }
